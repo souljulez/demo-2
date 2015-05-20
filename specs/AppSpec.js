@@ -6,7 +6,7 @@
 describe('App', function() {
   it('clears classification on startup', function() {
     $classificationEl = affix('#classification'); // affix returns a jQuery object
-    $classificationEl.text('not a triangle');
+    $classificationEl.text('not a freaking triangle');
 
     new App().start();
 
